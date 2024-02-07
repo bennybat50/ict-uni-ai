@@ -1,7 +1,11 @@
 import openai
 import gradio
+import os
+from dotenv import load_dotenv
 
-openai.api_key = "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"
+load_dotenv()
+
+openai.api_key = os.getenv('API_KEY')
 
 messages = [{"role": "system", "content": "You are a financial experts that specializes in real estate investment and negotiation"}]
 

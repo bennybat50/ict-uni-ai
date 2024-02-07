@@ -1,8 +1,12 @@
 import openai
+import os
+from dotenv import load_dotenv
 
-openai.api_key = process.env.API_KEY
+load_dotenv()
+
+openai.api_key = os.getenv('API_KEY')
 print(".... Welcome to Your Sassy Assistant.....")
-
+than
 
 
 def getChoice():
