@@ -1,0 +1,14 @@
+To start the Program. Open our CMD (Command prompt) if using windows or open Terminal if using (mac)
+
+Run : python assistant.py
+
+Once running, you wil see Listening for command.....
+you can perfrom the follwing list of commands using voice commands
+
+1) Add a task
+2) List tasks 
+3) Take a screeshot 
+4) Open Chrome
+5) Exit 
+
+Each of this 
