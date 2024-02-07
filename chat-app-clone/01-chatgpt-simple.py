@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = process.env.API_KEY
 print(".... Welcome to Your Sassy Assistant.....")
 
 
